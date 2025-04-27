@@ -30,7 +30,7 @@ public class BeggersProblem {
         int A = 5;
         int[][] B = {{1, 2, 10}, {2, 3, 20}, {2, 5, 25}};
 
-        BeggersProblem obj = new BeggersProblem(); // fixed case
+        BeggersProblem obj = new BeggersProblem();
         int[] output = obj.solve(A, B);
 
         for (int i = 0; i < A; i++) {
